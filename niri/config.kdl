@@ -273,7 +273,9 @@ spawn-at-startup "xwayland-satellite"
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
 spawn-at-startup "swww-daemon"
-spawn-at-startup "sww img $HOME/Pictures/wallpaper/elden1.jpg"
+spawn-at-startup "swww img $HOME/Pictures/wallpaper/elden1.jpg"
+
+
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 

@@ -15,10 +15,10 @@
   // Choose the order of the modules
 
   "modules-left": [  
-    "group/group-5",
+    "group/group-1",
   ],
   "modules-center": [
-    "group/group-1"
+    "group/group-5"
   ] ,
   "modules-right": [
     "group/group-3",
@@ -42,7 +42,6 @@
     "orientation": "horizontal",
     "modules": [
       "tray",
-      "network",
       "pulseaudio",
       "bluetooth",
       "backlight",

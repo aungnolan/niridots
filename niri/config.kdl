@@ -290,8 +290,6 @@ spawn-at-startup "swww img $HOME/Pictures/wallpaper/elden1.jpg"
 
 
 
-
-
 environment {
     XDG_DATA_DIRS "$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"
 }
@@ -651,4 +649,16 @@ binds {
     // Powers off the monitors. To turn them back on, do any input like
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
+
+
+Mod+Shift+S {
+    spawn-sh "grim -g \"$(slurp)\" - | wl-copy"
+
+}
+Mod+S {
+	spawn-sh "grim -g \"$(slurp)\" " 
+}
+
+
+
 }

@@ -1,2 +1,3 @@
 sudo pacman -S noto-fonts-emoji
 fc-cache -fv
+noto-fonts noto-fonts-cjk noto-fonts-extra

@@ -43,7 +43,6 @@
     "modules": [
       "tray",
       "pulseaudio",
-      "bluetooth",
       "backlight",
       "battery",
       "clock",

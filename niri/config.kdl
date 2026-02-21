@@ -295,7 +295,16 @@ environment {
 }
 
 
+overview{
+	zoom 0.25
+	backdrop-color "#181926"
+}
 
+gestures {
+	hot-corners {
+		off	
+	}
+}
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"

@@ -1,3 +1,13 @@
-sudo pacman -S noto-fonts-emoji
+## nerd fonts / languages fonts for system/browser
+
+sudo pacman -S noto-fonts-emoji noto-fonts noto-fonts-cjk noto-fonts-extra
 fc-cache -fv
-noto-fonts noto-fonts-cjk noto-fonts-extra
+
+
+## Explorer tumbnails
+sudo pacman -S ffmpegthumbnailer
+rm -rf ~/.cache/thumbnails/fail/*
+
+#
+## SAMSUNG USB SUPPORT 
+gvfs gvfs-mtp gvfs-gphoto2 android-udev

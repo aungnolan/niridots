@@ -42,7 +42,7 @@
     "orientation": "horizontal",
     "modules": [
       "tray",
-      "pulseaudio",
+     "pulseaudio",
       "backlight",
       "battery",
       "clock",

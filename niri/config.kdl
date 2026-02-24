@@ -289,7 +289,6 @@ spawn-at-startup "swww img $HOME/Pictures/wallpaper/elden1.jpg"
 
 
 
-
 environment {
     XDG_DATA_DIRS "$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"
 }

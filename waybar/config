@@ -21,6 +21,7 @@
     "group/group-5"
   ] ,
   "modules-right": [
+    "group/group-11",
     "group/group-3",
     "group/group-2"
   ],
@@ -38,11 +39,18 @@
       "memory",
     ],
   },
+
+  "group/group-11": {
+    "orientation": "horizontal",
+    "modules": [ 
+    "tray",
+    ],
+    },
+
+
   "group/group-3": {
     "orientation": "horizontal",
     "modules": [
-      "tray",
-      "bluetooth", 
      "pulseaudio",
       "backlight",
       "battery",

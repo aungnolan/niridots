@@ -11,7 +11,7 @@
 }
 
 #waybar .module {
-    color: @text;
+    color: @pink;
     padding: 0px 0px;
     margin: -10px 6px -10px;
     padding-left: 2px;
@@ -56,7 +56,7 @@ button:hover {
     padding-left: 2px;
     padding-right: 2px;
     margin-right: 0px;
-    color: @text;
+    color: @pink;
     animation: ws_normal 20s ease-in-out 1;
 }
 

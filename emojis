@@ -5,7 +5,16 @@ sudo pacman -S ttf-jetbrains-mono-nerd ttf-font-awesome
 fc-cache -fv
 
 ## polkit 
-udo pacman -S polkit polkit-gnome
+sudo pacman -S polkit polkit-gnome
+
+##networkmanager
+sudo systemctl enable NetworkManager
+sudo systemctl start NetworkManager
+## might need nm-applet & 
+reboot
+
+##volume control
+sudo pacman -S pavucontrol 
 
 ## Explorer tumbnails
 sudo pacman -S ffmpegthumbnailer

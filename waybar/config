@@ -42,6 +42,7 @@
     "orientation": "horizontal",
     "modules": [
       "tray",
+      "bluetooth", 
      "pulseaudio",
       "backlight",
       "battery",
@@ -125,6 +126,10 @@
     "icon-size": 16,
     "spacing": 5,
     "show-passive-items": true,
+    	"ignored": [
+    		"blueman-manager",
+    		"Blueman",
+	]
   },
 
 

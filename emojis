@@ -3,6 +3,8 @@
 sudo pacman -S noto-fonts-emoji noto-fonts noto-fonts-cjk noto-fonts-extra
 fc-cache -fv
 
+## polkit 
+udo pacman -S polkit polkit-gnome
 
 ## Explorer tumbnails
 sudo pacman -S ffmpegthumbnailer

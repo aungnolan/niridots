@@ -285,10 +285,7 @@ spawn-at-startup "waybar"
 spawn-at-startup "swww-daemon"
 spawn-at-startup "swww img $HOME/Pictures/wallpaper/elden1.jpg"
 
-
-
-
-
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 environment {
     XDG_DATA_DIRS "$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"
 }

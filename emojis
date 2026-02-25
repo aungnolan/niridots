@@ -1,6 +1,7 @@
 ## nerd fonts / languages fonts for system/browser
 
 sudo pacman -S noto-fonts-emoji noto-fonts noto-fonts-cjk noto-fonts-extra
+sudo pacman -S ttf-jetbrains-mono-nerd ttf-font-awesome
 fc-cache -fv
 
 ## polkit 
